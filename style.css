@@ -1,0 +1,62 @@
+h1{
+    color:red;
+   
+    margin-left:30px;
+}
+.menu{
+    margin-right:30px;
+}
+.menu a{
+    margin-left: 20px;
+}
+
+ 
+
+body{
+    background-color:#808080
+}
+
+.header *{
+    border:solid
+}  
+
+
+.header{
+    background-color: white;
+    display: flex;
+    justify-content:space-between
+}
+.grid{
+    display: flex;
+    justify-content:space-evenly ;
+    flex-wrap:wrap
+}
+.footer{
+    display: flex;
+    justify-content:flex-end
+}
+.description{
+    text-align:center
+}
+a:link{     
+    color:green
+}
+a:visited{
+    color:purple
+}
+.item{
+    position:relative
+}
+.item p{
+    position: absolute;
+     top:50%;
+    left:50%; 
+    transform: translate(-50%,-50%);
+  opacity:0;  
+}
+.item:hover p{
+   opacity:1 
+}
+.item:hover img{
+    opacity:0.5
+}
